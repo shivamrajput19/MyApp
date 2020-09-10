@@ -1,0 +1,39 @@
+---
+title: "App's Reproducible Pitch"
+author: "Shivam"
+date: "10 Sept, 2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## About the App
+
+The link to the app is [here]()
+
+The app uses the data set provided in the r package `datasets` and takes in an input of the variables to be taken in the x and y axis of the plots to be plotted.  <br/>
+It takes in the values and produces 3 types of plots, <br/>
+1. The first one labeled Plot produces a type "o" plot from the function of x and y variables  <br/>
+2. The second one labeled Regression Plot first plots the points selected and then adds a fitted regression line to it and also shows the summary of the linear model included  <br/>
+3. The third one shows a box plot of the taken variables (It will show an error if you choose the same variables in both the plots, so please try and select different variables)  <br/>
+
+The app also shows a small description about the data set
+
+## Regression Model Example Using Sepal Length and Species
+
+```{r}
+library(datasets)
+data("iris")
+fit <- lm(Sepal.Length ~ Species, data = iris)
+coef(summary(fit))
+```
+
+## Boxplot Example with Petal Width and Sepal Width
+
+```{r}
+boxplot(Sepal.Width ~ Petal.Width, data = iris)
+```
+
+## Thank You
