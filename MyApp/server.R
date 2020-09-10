@@ -41,6 +41,6 @@ shinyServer(function(input, output) {
             plot(as.formula(formulaTextPoint()))
             abline(fit(), col=2)
         })
-    })
     
+    })
 })

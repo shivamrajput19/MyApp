@@ -5,6 +5,8 @@ account: rajputshivam1415
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2783167
-bundleId: 3615085
+bundleId: 3615149
 url: https://rajputshivam1415.shinyapps.io/myapp/
-when: 1599743199.31709
+when: 1599744213.86851
+asMultiple: FALSE
+asStatic: FALSE

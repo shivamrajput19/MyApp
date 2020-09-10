@@ -56,6 +56,9 @@ shinyUI(
                         p("Sepal.Width"),
                         p("Petal.Width"),
                         p("Species")
-               )
+               ),
+               tabPanel("How the application Works",
+                        h3("How to use this Application"),
+                        p("Just Select the variables from the given options and the desired output will be produced in forms of type<o> plot, box plot and a regression model"))
     )
 )
