@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## About the App
 
-The link to the app is [here]()
+The link to the app is [here](https://rajputshivam1415.shinyapps.io/myapp/)
 
 The app uses the data set provided in the r package `datasets` and takes in an input of the variables to be taken in the x and y axis of the plots to be plotted.  <br/>
 It takes in the values and produces 3 types of plots, <br/>
